@@ -1,22 +1,26 @@
 - name: Dekitayo!
-  description: A fun and interactive task management app for children and their parents. For this final project, I was the lead developer in a team of 4.
+  description: A fun and interactive task management app for children and their parents. For this final project, I was the lead developer in a team of 4. We used Rails, Javascript, HTML, CSS, API's, and Devise to create this app. Creating an active and fun learning environment for children involves turning education into an exciting adventure, where curiosity is sparked, and knowledge is gained through interactive and enjoyable activities. It's all about making learning a thrilling journey filled with discovery and joy!
   image: projects/dekitayo.png
-  url: www.dekitayo.me
+  url: http://www.dekitayo.me/
+  github_url: https://github.com/mao-10/dekitayo
 
 - name: Pawsitive
-  description: A pet rental app. As the lead developer in a team of 4, I worked on both the frontend and the backend.
+  description: A pet rental app. This app is an AirBnB copycat. Rent a furry friend and let the day unfold in a Pawsitively delightful adventure of companionship and joy! As the lead developer in a team of 4, I worked on both the frontend and the backend.
   image: projects/pawsitive.png
   url: https://pawsitive-samstone1171-2408e2914163.herokuapp.com/
+  github_url: https://github.com/mao-10/pawsitive
 
 - name: Movie Watchlist
   description: Decent description of the app
   image: projects/placeholder.jpg
   url: https://www.google.com
+  github_url: https://github.com/mao-10/rails-watch-list
 
 - name: Rails Task Manager
   description: Decent description of the app
   image: projects/placeholder.jpg
   url: https://www.google.com
+  github_url: https://github.com/mao-10/rails-task-manager
 
 - name: Yelp
   description: Decent description of the app

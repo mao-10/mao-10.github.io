@@ -1,9 +1,26 @@
-<div class="d-flex justify-content-center gap-5 align-items-center banner">
-  <div class="d-flex flex-column justify-content-center align-items-center">
-    <%= image_tag 'my_photo.jpg', alt: "profile photo", class: 'avatar' %>
-  </div>
-  <div class="d-flex flex-column justify-content-center align-items-center banner-text">
-    <h1 class="title-main text-white fw-2">Hi, I'm Mao!</h1>
-    <p class="text-white text-center fs-3">I'm a Web Developer in Tokyo, Japan.</p>
+<div class="full-banner">
+  <div class="d-flex justify-content-center gap-5 align-items-center banner">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <%= image_tag 'my_photo.jpg', alt: "profile photo", class: 'avatar' %>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center banner-text">
+      <h1 class="title-main text-white fw-2">Hi, I'm Mao!</h1>
+      <p class="text-white text-center fs-3">I'm a Web Developer in Tokyo, Japan.</p>
+      <h3 class="text-center text-white fs-2">Contact me on</h3>
+      <div class="d-flex justify-content-center flex-wrap">
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-solid fa-envelope text-white fs-3"></i>
+          <%= mail_to "maoCHR@gmail.com", "", class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-github text-white fs-3"></i>
+          <%= link_to "", "https://github.com/mao-10", target: '_blank', class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-linkedin text-white fs-3"></i>
+          <%= link_to "", "https://www.linkedin.com/in/christiemao", target: '_blank', class: 'button-social-link' %>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
