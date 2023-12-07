@@ -1,24 +1,24 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Dekitayo!
+  description: A fun and interactive task management app for children and their parents. For this final project, I was the lead developer in a team of 4.
+  image: projects/dekitayo.png
+  url: www.dekitayo.me
+
+- name: Pawsitive
+  description: A pet rental app. As the lead developer in a team of 4, I worked on both the frontend and the backend.
+  image: projects/pawsitive.png
+  url: https://pawsitive-samstone1171-2408e2914163.herokuapp.com/
 
 - name: Movie Watchlist
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder.jpg
   url: https://www.google.com
 
-- name: Airbnb
+- name: Rails Task Manager
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder.jpg
   url: https://www.google.com
 
 - name: Yelp
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder.jpg
   url: https://www.google.com
