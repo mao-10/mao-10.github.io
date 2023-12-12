@@ -11,18 +11,17 @@
   github_url: https://github.com/mao-10/pawsitive
 
 - name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.jpg
-  url: https://www.google.com
+  description: A movie watchlist web app. You can create movie lists of your favorite movies!
+  image: projects/watchlist-screenshot.png
+  url: https://watchlist-project-10-8227bec8b19a.herokuapp.com/
   github_url: https://github.com/mao-10/rails-watch-list
 
 - name: Rails Task Manager
-  description: Decent description of the app
-  image: projects/placeholder.jpg
-  url: https://www.google.com
+  description: A mini task management project.
+  image: projects/rails-task-manager-screenshot.png
   github_url: https://github.com/mao-10/rails-task-manager
 
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.jpg
-  url: https://www.google.com
+- name: Restaurant Listing
+  description: A web app that lists restaurants that can be reviewed.
+  image: projects/yelp-mvp.png
+  github_url: https://github.com/mao-10/rails-yelp-mvp

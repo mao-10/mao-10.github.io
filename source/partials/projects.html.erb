@@ -12,8 +12,10 @@
                   <h2><%= project.name %></h2>
                 </div>
                 <p><%= project.description %></p>
-                <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                  <i class="fas fa-external-link-alt"></i>
+                <% if project.url%>
+                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                    <i class="fas fa-external-link-alt"></i>
+                  <% end %>
                 <% end %>
                 <% link_to project.github_url, class: 'external-link', target: '_blank' do %>
                   <i class="fa-brands fa-github"></i>
